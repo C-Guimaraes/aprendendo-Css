@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+   --primary-color: rgb(56, 199, 199);
+   --primary-color-darker: rgb(6, 8, 8);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 640px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imc {
+    width:  270px;
+    line-height: 1.0em;
+    text-align: justify;
+    display: inline-table;
+}
+
+.resultado {
+    width:  250px;
+    line-height: 1.0em;
+    text-align: justify;
+    display: inline-table;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+
+.paragrafo-resultado {
+    background: rgba(41, 207, 166, 0.534);
+    padding: 10px 20px;
+}
+
+.resultado-ruim {
+    background: rgb(160, 4, 69);
+    padding: 10px 20px;
+}
