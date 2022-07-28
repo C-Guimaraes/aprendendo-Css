@@ -1,3 +1,3 @@
 # Aprendendo_dev_Front-end
 
-Neste repositório será armazenado arquivos que desenvolverei para praticar HTML, CSS, Javascript, e demais itens utilizados no desenvolvimento front-end.
+Neste repositório está armazenado um calculador de IMC (Índice de massa corporal) bem simples feito em HTML, CSS e Javascript
